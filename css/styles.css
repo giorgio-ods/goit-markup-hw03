@@ -233,6 +233,11 @@ p {
   display: flex;
   justify-content: center;
 }
+.network-button {
+  width: 44px;
+  height: 44px;
+}
+
 .network-button:hover,
 .network-button:focus {
   background-color: var(--accent-colour);
@@ -311,8 +316,17 @@ footer {
   line-height: 1.62;
   height: 38px;
 }
+.filter .item {
+  margin-right: 8px;
+}
+
+.filter .item:last-child {
+  margin-right: 0px;
+}
+
 .filter .title:hover,
 .filter .title:focus {
+  color: var(--primary-white-colour);
   background-color: var(--accent-colour);
 }
 /* Projects */
